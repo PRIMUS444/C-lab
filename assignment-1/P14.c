@@ -1,40 +1,44 @@
 //C program to count total number of notes in given amount.
 #include<stdio.h>
-void clrscr()                         //clear screen funtion declaration
-{
- system("clear");
-}
 void main()
-{
-long n,th,fh,h,f,tw,t,fc,tc,oc;      //variable declaration
- clrscr();                           //clear screen function call
- printf("Enter an amount  :");
- scanf("%d",&n);
- th=n/2000;
- n=n%2000;
- fh=n/500;
- n=n%500;
- h=n/100;
- n=n%100;
- f=n/50;
- n=n%50;
- tw=n/20;
- n=n%20;
- t=n/10;
- n=n%10;
- fc=n/5;
- n=n%5;
- tc=n/2;
- n=n%2;
- oc=n/1;
- printf("\n2000 rupees notes are  :%d",th);
- printf("\n 500 rupees notes are  :%d",fh);
- printf("\n 100 rupees notes are  :%d",h);
- printf("\n  50 rupees notes are  :%d",f);
- printf("\n  20 rupees notes are  :%d",tw);
- printf("\n  10 rupees notes are  :%d",t);
- printf("\n   5 rupees coin  are  :%d",fc);
- printf("\n   2 rupees coin  are  :%d",tc);
- printf("\n   1 rupee  coin  are  :%d",oc);
+ {
+  int n,th,fh,h,f,tw,t,fc,tc,oc;         //variable declaration
+  int x=2000;
+  printf("Enter an amount  :");
+  scanf("%d",&n);
+  th=n/x;
+  n=n%x;
+  x=500;
+  fh=n/x;
+  n=n%x;
+  x=100;
+  h=n/x;
+  n=n%x;
+  x=50;
+  f=n/x;
+  n=n%x;
+  x=20;
+  tw=n/x;
+  n=n%x;
+  x=10;
+  t=n/x;
+  n=n%x;
+  x=5;
+  fc=n/x;
+  n=n%x;
+  x=2;
+  tc=n/x;
+  n=n%x;
+  x=1;
+  oc=n/x;
+  printf("\n2000 rupees notes are  :%ld",th);
+  printf("\n 500 rupees notes are  :%ld",fh);
+  printf("\n 100 rupees notes are  :%ld",h);
+  printf("\n  50 rupees notes are  :%ld",f);
+  printf("\n  20 rupees notes are  :%ld",tw);
+  printf("\n  10 rupees notes are  :%ld",t);
+  printf("\n   5 rupees coin  are  :%d",fc);
+  printf("\n   2 rupees coin  are  :%d",tc);
+  printf("\n   1 rupee  coin  are  :%d\n",oc); 
 }
 

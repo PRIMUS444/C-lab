@@ -1,4 +1,7 @@
-//C program that will read in a sequence of ASCII characters and write out a sequence of encoded characters in its place. If a character is a letter or a digit, we will replace it with the next character in the character set, except that Z will be replaced by A, z by a, and 9 by 0. Thus 1 becomes 2, C becomes D, p becomes q, and so on. Any character other than a letter or a digit will be replaced by a period (.)
+/*C program that will read in a sequence of ASCII characters and write out a sequence of encoded characters in its place. 
+If a character is a letter or a digit, we will replace it with the next character in the character set,
+ except that Z will be replaced by A, z by a, and 9 by 0. Thus 1 becomes 2, C becomes D, p becomes q, and so on.
+ Any character other than a letter or a digit will be replaced by a period (.)*/
 
 #include<stdio.h>
 void clrscr()

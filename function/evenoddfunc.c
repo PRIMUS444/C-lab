@@ -15,6 +15,7 @@ void evod(int num);
 void main()
  {
   int a;
+  clrscr();
   printf("Enter a number   :");
   scanf("%d",&a);
   evod(a);

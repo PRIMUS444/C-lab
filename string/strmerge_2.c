@@ -1,4 +1,4 @@
-////merging two strings.2nd method reducing memory
+////merging two strings.2nd method reducing memory.
 #include<stdio.h>
 void clrscr()
  {

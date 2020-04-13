@@ -1,4 +1,4 @@
-//program to the value of X^n where X is float type and n is integer type.
+//program to calculate the value of X^n where X is float type and n is integer type.
 #include<stdio.h>
 void clrscr()                         //clear screen funtion declaration
 {

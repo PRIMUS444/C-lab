@@ -1,8 +1,4 @@
 #include<stdio.h>
-void clrscr()
-{
- system("clear");
-}
 
 void main()
 {

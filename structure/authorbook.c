@@ -1,6 +1,11 @@
+/*Make a structure Author with name and email-id as its data variables.
+Write appropriate read function for this structure. 
+Make another structure Book with name, price, quantity and author (variable of structure Author) as data members. 
+Design appropriate read function for this structure variable.
+Make two variables of the book with values provided by the user and display the email-id of the author of book with higher price.*/
 #include<stdio.h>
 
-struct author
+struct author                                                       //created structure author
 {
     char name[25],email[25];
 };
@@ -14,7 +19,7 @@ struct book
 
 struct book read()
 {
-    struct book x;
+    struct book x;                                              //structure variable declared
     printf("Enter Authors name  :");
     scanf("%s",x.a.name);
     printf("Enter Authors email :");
@@ -27,12 +32,12 @@ struct book read()
     scanf("%d",&x.qty);
     return(x);
 }
-int main()
+int main()                                               //main 
 {
     struct book z1,z2;
     z1=read();
     z2=read();
-    if (z1.price>z2.price)
+    if (z1.price>z2.price)                              //conditions applied
     {
         printf("\n%s",z1.a.name);
         printf("\n%s",z1.a.email);
